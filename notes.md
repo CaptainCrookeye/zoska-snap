@@ -15,9 +15,11 @@ Would you like to customize the import alias (`@/*` by default)? No / Yes - No
 
 Inštalácia Material UI:
 npm install @mui/material @emotion/react @emotion/styled
+npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
 
 Spustenie servera na development:
 npm run dev
+npm run build //optimalizovany kod na production
 
 VSCode extensions:
 GitLens
@@ -48,8 +50,9 @@ git config –global user.email „GITHUB_EMAIL“
 git remote add origin REPOSITORY_URL
 git remote -v //kontrola či to funguje
 
-
-
 Príkazy:
 git add . //uloží celý projekt
 Source Control záložka – commitne zmeny na github, treba dať hore meno
+
+Production server:
+vercel - služba na hosting

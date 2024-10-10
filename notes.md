@@ -56,3 +56,4 @@ Source Control záložka – commitne zmeny na github, treba dať hore meno
 
 Production server:
 vercel - služba na hosting
+

@@ -1,16 +1,14 @@
-// src/app/o-nas/page.tsx
+import React from 'react';
+import SimpleBottomNavigation from '../../components/NavBar'; // Adjust the path as needed
 
-
-import Typography from "@mui/material/Typography";
-import Container from "@mui/material/Container";
-
-export const metadata = { title: "O nás | ZoškaSnap" };
-
-export default function AboutUs() {
-
+const AboutMe = () => {
   return (
-    <Container>
-      <Typography> O nás </Typography>
-    </Container>
+    <div>
+      <h1>My App</h1>
+      {/* Other content goes here */}
+      <SimpleBottomNavigation />
+    </div>
   );
-}
+};
+
+export default AboutMe;

@@ -1,16 +1,14 @@
-// src/app/podmienky/page.tsx
+import React from 'react';
+import SimpleBottomNavigation from '../../components/NavBar'; // Adjust the path as needed
 
-
-import Typography from "@mui/material/Typography";
-import Container from "@mui/material/Container";
-
-export const metadata = { title: "Podmienky | ZoškaSnap" };
-
-export default function TermsConditions() {
-
+const Terms = () => {
   return (
-    <Container>
-      <Typography> Podmienky používania </Typography>
-    </Container>
+    <div>
+      <h1>My App</h1>
+      {/* Other content goes here */}
+      <SimpleBottomNavigation />
+    </div>
   );
-}
+};
+
+export default Terms;

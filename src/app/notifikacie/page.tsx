@@ -1,16 +1,14 @@
-// src/app/notifikacie/page.tsx
+import React from 'react';
+import SimpleBottomNavigation from '../../components/NavBar'; // Adjust the path as needed
 
-
-import Typography from "@mui/material/Typography";
-import Container from "@mui/material/Container";
-
-export const metadata = { title: "Notifikácie | ZoškaSnap" };
-
-export default function Notifications() {
-
+const Notifications = () => {
   return (
-    <Container>
-      <Typography> Notifikácie </Typography>
-    </Container>
+    <div>
+      <h1>My App</h1>
+      {/* Other content goes here */}
+      <SimpleBottomNavigation />
+    </div>
   );
-}
+};
+
+export default Notifications;

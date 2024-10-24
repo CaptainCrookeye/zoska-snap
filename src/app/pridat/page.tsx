@@ -1,16 +1,14 @@
-// src/app/pridat/page.tsx
+import React from 'react';
+import SimpleBottomNavigation from '../../components/NavBar'; // Adjust the path as needed
 
-
-import Typography from "@mui/material/Typography";
-import Container from "@mui/material/Container";
-
-export const metadata = { title: "Pridať | ZoškaSnap" };
-
-export default function Add() {
-
+const Add = () => {
   return (
-    <Container>
-      <Typography> Pridať </Typography>
-    </Container>
+    <div>
+      <h1>My App</h1>
+      {/* Other content goes here */}
+      <SimpleBottomNavigation />
+    </div>
   );
-}
+};
+
+export default Add;

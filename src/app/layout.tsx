@@ -5,7 +5,7 @@ import Navbar from "../components/NavBar";
 
 export const metadata: Metadata = {
   title: "SnapZoška",
-  description: "Created by AlexS",
+  description: "Made by Captain Crookeye",
 };
 
 export default function RootLayout({

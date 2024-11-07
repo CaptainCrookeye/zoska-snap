@@ -4,7 +4,7 @@ import SimpleBottomNavigation from '../../components/NavBar'; // Adjust the path
 const Add = () => {
   return (
     <div>
-      <h1>My App</h1>
+      <h1>Pridať príspevok</h1>
       {/* Other content goes here */}
       <SimpleBottomNavigation />
     </div>

@@ -26,13 +26,13 @@ export default function SimpleBottomNavigation() {
           if (newValue === 0) router.push('/');
           if (newValue === 1) router.push('/profil');
           if (newValue === 2) router.push('/pridat');
-          if (newValue === 3) router.push('/o-nas');
+          if (newValue === 3) router.push('/o-mne');
         }}
       >
         <BottomNavigationAction label="Domov" icon={<HomeRoundedIcon />} />
         <BottomNavigationAction label="Profil" icon={<AccountCircleRoundedIcon />} />
         <BottomNavigationAction label="Pridať príspevok" icon={<AddCircleRoundedIcon />} />
-        <BottomNavigationAction label="O nás" icon={<InfoRounded />} />
+        <BottomNavigationAction label="O mne" icon={<InfoRounded />} />
       </BottomNavigation>
     </Box>
   );

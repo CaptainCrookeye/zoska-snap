@@ -4,7 +4,7 @@ import Navbar from "../components/NavBar";
 
 
 export const metadata: Metadata = {
-  title: "SnapZoška",
+  title: "ZoškaSnap",
   description: "Made by Captain Crookeye",
 };
 

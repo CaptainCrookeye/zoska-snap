@@ -9,7 +9,7 @@ import BottomNavigationAction from '@mui/material/BottomNavigationAction';
 import AccountCircleRoundedIcon from '@mui/icons-material/AccountCircleRounded';
 import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
 import AddCircleRoundedIcon from '@mui/icons-material/AddCircleRounded';
-import { InfoOutlined, InfoRounded } from '@mui/icons-material';
+import { InfoRounded } from '@mui/icons-material';
 
 export default function SimpleBottomNavigation() {
   const [value, setValue] = useState(0);
